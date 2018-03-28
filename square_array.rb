@@ -1,6 +1,6 @@
 def square_array(array)
-  new_numbers = []
-  array.each do |array|
-    array == array ** 2
+
+  array.each do |number|
+    array == number * number
   end
 end
