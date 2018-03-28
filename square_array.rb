@@ -1,3 +1,5 @@
 def square_array(array)
-  # your code here
+  array.each_char do |number|
+    new_numbers = number * number
+  end
 end
